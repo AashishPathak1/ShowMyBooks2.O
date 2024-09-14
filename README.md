@@ -5,7 +5,7 @@
 
 ## 🚀 Overview
 
-Welcome to **ShowMyBooks**, your go-to Book Recommendation System! Dive into a world of personalized book suggestions powered by machine learning. Whether you're looking for your next great read or exploring new genres, ShowMyBooks is here to guide you with recommendations tailored just for you.
+Welcome to **ShowMyBooks2.O**, your ultimate destination for discovering the perfect book! Dive into personalized recommendations and explore a world of reading tailored just for you.
 
 ## 🌟 Key Features
 
