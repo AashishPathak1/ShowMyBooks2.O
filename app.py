@@ -25,12 +25,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# st.markdown(
-#     "<h1 style='text-align: center; color: white;'>ShowMyBooks2.O : <a href='https://showmybooks.onrender.com' target='_blank'>Book Recommender System</a></h1>",
-#     unsafe_allow_html=True,
-# )
-
-
 with st.container():
     # Navigation
     page = st.sidebar.selectbox(
@@ -47,14 +41,6 @@ with st.container():
     )
     width = st.sidebar.slider(
         "Adjust the width of screen ", min_value=800, max_value=1920, value=1200
-    )
-    # Add port number section
-    st.sidebar.title("Port Settings")
-    port_number = st.sidebar.slider(
-        "Adjust the port number",
-        min_value=8000,
-        max_value=9000,
-        value=8501,
     )
 
     border_color_options = st.sidebar.color_picker("Choose a frame color ")
@@ -143,7 +129,7 @@ with st.container():
 
     if page == "Popular Books":
         st.header("Reader's Choice : Top 50 Books")
-        # st.write("Top 50 Books:")
+
         for i in range(0, 50, books_per_row):
             cols = st.columns(books_per_row)
             for j, col in enumerate(cols):
@@ -193,5 +179,3 @@ with st.container():
                             """,
                                 unsafe_allow_html=True,
                             )
-
-st.run(port=port_number)

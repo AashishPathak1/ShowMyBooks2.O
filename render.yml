@@ -1,9 +1,14 @@
 build:
   command: "pip install -r requirements.txt"
   runtime: python-3.12
-render:
-  command: "gunicorn --workers 4 --bind 0.0.0.0:8501 app:app"
-  port: 8501
-  scaling:
-    min_instances: 1
-    max_instances: 1
+
+services:
+  - type: web
+    name: streamlit-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT
+    port: 8501
+    scaling:
+      min_instances: 1
+      max_instances: 1
