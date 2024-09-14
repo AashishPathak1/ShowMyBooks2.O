@@ -2,7 +2,6 @@ streamlit
 numpy
 pandas
 scikit_learn
-pickle
 
 #importing packages 
 -e .
