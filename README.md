@@ -49,14 +49,14 @@ This project demonstrates:
 
 - `app.py`: Core Streamlit application code.
 - `data/`: Datasets and data processing scripts.
-- `models/`: Machine learning model implementations.
 - `requirements.txt`: List of Python dependencies.
+- `artifacts`: List of the pickle files that imported after analysis
 
 ## 🏁 Getting Started
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AashishPathak1/ShowMyBooks2.O/
+   git clone https://github.com/AashishPathak1/ShowMyBooks2.O.git
    ```
 2. **Install Dependencies**
    ```bash
@@ -72,9 +72,9 @@ This project demonstrates:
 Dive right into discovering your next favorite book!
 Click the link below to access the live ShowMyBooks app:
 
-[**Explore ShowMyBooks Now!**](https://aashishpathak1-showmybooks2-o-app-esd7oj.streamlit.app/)
+Explore[**ShowMyBooks2.O**](https://aashishpathak1-showmybooks2-o-app-esd7oj.streamlit.app/)
 
-### 📂 Check Out My Previous Project
+### 📂 Check Out My Previous Version of Project
 
 Curious about my earlier work on the Recommender System?
 Visit [**ShowMyBooks - Previous Version**](https://showmybooks.onrender.com/) to see how the project evolved!
@@ -83,4 +83,4 @@ Enjoy personalized book recommendations and more in both versions!
 
 ## 💬 Feedback & Contributions
 
-Got ideas or feedback? Feel free to [open an issue](https://github.com/your-username/your-repo-name/issues) or [submit a pull request](https://github.com/your-username/your-repo-name/compare). Happy reading!
+Got ideas or feedback? Feel free to [open an issue](https://github.com/AashishPathak1/ShowMyBooks2.O/issues) or [submit a pull request](https://github.com/AashishPathak1/ShowMyBooks2.O/compare). Happy reading!
