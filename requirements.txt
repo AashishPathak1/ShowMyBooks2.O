@@ -2,7 +2,7 @@ streamlit
 numpy
 pandas
 scikit_learn
-gunicorn
+pickle
 
 #importing packages 
 -e .
