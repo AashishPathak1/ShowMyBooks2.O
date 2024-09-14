@@ -7,7 +7,6 @@ st.set_page_config(layout="wide")
 
 
 # Load data
-@st.cache
 def load_data():
     popular_df = pickle.load(open("artifacts/popular.pkl", "rb"))
     book_pivot_table = pickle.load(open("artifacts/book_pivot_table.pkl", "rb"))
@@ -17,6 +16,7 @@ def load_data():
 
 
 popular_df, book_pivot_table, books, similarity_scores = load_data()
+
 
 # Streamlit app
 st.markdown(
