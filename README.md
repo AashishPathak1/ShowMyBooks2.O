@@ -72,7 +72,7 @@ This project demonstrates:
 Dive right into discovering your next favorite book!
 Click the link below to access the live ShowMyBooks app:
 
-Explore[**ShowMyBooks2.O**](https://aashishpathak1-showmybooks2-o-app-esd7oj.streamlit.app/)
+[**Explore ShowMyBooks2.O Here**](https://aashishpathak1-showmybooks2-o-app-esd7oj.streamlit.app/)
 
 ### 📂 Check Out My Previous Version of Project
 
