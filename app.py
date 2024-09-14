@@ -20,9 +20,15 @@ popular_df, book_pivot_table, books, similarity_scores = load_data()
 
 # Streamlit app
 st.markdown(
-    "<h1 style='text-align: center; color: solid White;'>ShowMyBooks : Book Recommender System</h1>",
+    "<h1 style='text-align: center; color: solid White;'>ShowMyBooks2.O : Book Recommender System</h1>",
     unsafe_allow_html=True,
 )
+
+# st.markdown(
+#     "<h1 style='text-align: center; color: white;'>ShowMyBooks2.O : <a href='https://showmybooks.onrender.com' target='_blank'>Book Recommender System</a></h1>",
+#     unsafe_allow_html=True,
+# )
+
 
 with st.container():
     # Navigation
@@ -60,6 +66,13 @@ with st.container():
         """
 
     background_color = st.sidebar.color_picker("Choose a background color")
+
+    # Website Link
+    st.sidebar.title("Explore More")
+    st.sidebar.markdown(
+        "<a href='https://showmybooks.onrender.com'><button style='background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px;'>ShowMyBooks</button></a>",
+        unsafe_allow_html=True,
+    )
 
     st.markdown(
         f"""
