@@ -48,6 +48,14 @@ with st.container():
     width = st.sidebar.slider(
         "Adjust the width of screen ", min_value=800, max_value=1920, value=1200
     )
+    # Add port number section
+    st.sidebar.title("Port Settings")
+    port_number = st.sidebar.slider(
+        "Adjust the port number",
+        min_value=8000,
+        max_value=9000,
+        value=8501,
+    )
 
     border_color_options = st.sidebar.color_picker("Choose a frame color ")
 
@@ -186,4 +194,4 @@ with st.container():
                                 unsafe_allow_html=True,
                             )
 
-st.run()
+st.run(port=port_number)
