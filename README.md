@@ -56,7 +56,7 @@ This project demonstrates:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/AashishPathak1/ShowMyBooks2.O.git
+   git clone https://github.com/theaashishpathak/ShowMyBooks2.O.git
    ```
 2. **Install Dependencies**
    ```bash
@@ -72,7 +72,7 @@ This project demonstrates:
 Dive right into discovering your next favorite book!
 Click the link below to access the live ShowMyBooks app:
 
-[**Explore ShowMyBooks2.O Here**](https://aashishpathak1-showmybooks2-o-innewui.streamlit.app/)
+[**Explore ShowMyBooks2.O Here**](https://AashishPathak1-showmybooks2-o-innewui.streamlit.app/)
 
 ### 📂 Check Out My Previous Version of Project
 
@@ -83,4 +83,4 @@ Enjoy personalized book recommendations and more in both versions!
 
 ## 💬 Feedback & Contributions
 
-Got ideas or feedback? Feel free to [open an issue](https://github.com/AashishPathak1/ShowMyBooks2.O/issues) or [submit a pull request](https://github.com/AashishPathak1/ShowMyBooks2.O/compare). Happy reading!
+Got ideas or feedback? Feel free to [open an issue](https://github.com/theaashishpathak/ShowMyBooks2.O/issues) or [submit a pull request](https://github.com/theaashishpathak/ShowMyBooks2.O/compare). Happy reading!
